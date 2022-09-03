@@ -1,0 +1,38 @@
+#######################################################
+Gerenciar máquinas
+Instalar a maquina virtual: vagrant up
+Selecionar a maquina: vagrant ssh '(.define(nome)) da máquina'
+desligar maquina: vagrant halt 'nome' 
+Apagar maquina: vagrant destroy 'nome'
+#######################################################
+
+##################################################################
+Comandos Debian
+
+-----------------------------------------
+Localização
+Navegar entre pastas: cd
+listar diretórios: ls
+listar arquivos: ls -a
+listar arquivos ocultos: ls -la
+lista com propriedades: ls -l 
+Mostrar o caminho do diretório atual: pwd
+-----------------------------------------
+
+-----------------------------------------
+Permissões
+mudar permissão de leitura/escrita dos usuários no arquivo: chmod 'nivel' 'arquivo'
+mudar o proprietario do arquivo: chown:root vagrant 'arquivo'
+Executar comando como administrador: sudo
+Criar usuário: useradd 'nome'
+abrir arquivo com o leitor de texto pardrão: cat 'arquivo'
+escrever no arquivo: echo "Texto" > 'arquivo' 
+----------------------------------------
+
+----------------------------------
+Cowsay pacote estupido da vaca falante
+sudo yum install epel-release -y
+sudo yum install cowsay -y
+----------------------------------
+
+####################################################################
