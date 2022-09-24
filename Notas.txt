@@ -1,0 +1,6 @@
+sudo docker container run hello-world
+sudo docker container ls --all
+sudo docker image ls
+sudo docker container rm (name)
+exit
+vagrant halt
