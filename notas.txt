@@ -1,2 +1,0 @@
-vagrant box list
-vagrant box remove 
